@@ -2,4 +2,4 @@
 @import "tw-animate-css";
 
 /* Importa el CSS de la librería common */
-@import "../../node_modules/cesione.common.library.react/dist/styles";
+@import "cesione.common.react.library/styles/index.css";
