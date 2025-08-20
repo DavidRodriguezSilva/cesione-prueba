@@ -1,0 +1,38 @@
+{
+  "name": "cesione.sistema.tenant.react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build:common": "cd ../../Common/Cesione.Common.React.Library && npm i && npm run build",
+    "dev": "npm run build:common && vite --port 3000",
+    "build:dev": "npm run build:common && tsc -b && vite build --mode development",
+    "build:prod": "npm run build:common && tsc -b && vite build --mode production"
+  },
+  "dependencies": {
+    "cesione.common.react.library": "file:../../Common/Cesione.Common.React.Library",
+    "@tailwindcss/vite": "^4.1.12",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.536.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.12",
+    "tw-animate-css": "^1.3.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/node": "^24.2.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.4"
+  }
+}

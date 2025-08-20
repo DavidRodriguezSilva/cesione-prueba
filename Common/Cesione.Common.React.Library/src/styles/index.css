@@ -1,0 +1,4 @@
+@import "./colors.css";
+@import "./config.css";
+
+@source "../**/*.{ts,tsx,js,jsx}";
